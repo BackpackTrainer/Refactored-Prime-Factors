@@ -1,0 +1,20 @@
+package test;
+
+import java.util.ArrayList;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+import factorer.Factorer;
+
+public class FactorsTest {
+		
+
+	@Test
+	public void testFactorsOf1() {
+
+		
+		
+	}
+
+}

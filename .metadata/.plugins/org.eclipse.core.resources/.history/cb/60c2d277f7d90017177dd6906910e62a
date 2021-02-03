@@ -1,0 +1,30 @@
+package factorer;
+
+import java.util.ArrayList;
+
+public class Factorer {
+
+	public ArrayList<Integer> factor(int numberToBeFactored) {
+		
+		ArrayList<Integer> factors = new ArrayList<Integer>();
+		
+		
+			while (numberToBeFactored % 2 == 0) {		
+				factors.add(2);
+				numberToBeFactored /=2;
+			}
+		
+			
+			while (numberToBeFactored % 3 == 0) {		
+				factors.add(3);
+				numberToBeFactored /=3;
+			}
+			
+			if (numberToBeFactored > 1) {
+				factors.add(numberToBeFactored);
+			}
+		
+		return factors;
+	}
+
+}

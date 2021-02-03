@@ -1,0 +1,24 @@
+package test;
+
+import java.util.ArrayList;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class FactorsTest {
+		ArrayList<Integer> factors;
+		ArrayList<Integer> answers;
+
+	@Test
+	public void testFactorsOf1() {
+		int numberToBeFactored = 1;
+			
+		factors = new ArrayList<Integer>();
+		answers = factorer.factor(numberToBeFactored);
+		
+		Assert.assertTrue(answers == factors);
+		
+		
+	}
+
+}
