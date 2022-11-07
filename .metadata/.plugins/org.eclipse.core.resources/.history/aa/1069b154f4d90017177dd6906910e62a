@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import org.junit.Assert;
 import org.junit.Test;
 
-import factorer.Factorer;
+import main.java.Factorer;
 
 public class FactorsTest {
 		
