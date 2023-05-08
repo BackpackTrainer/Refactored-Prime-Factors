@@ -88,7 +88,7 @@ public class RefactoredTests {
 	
 	@Test
 	public void testFactorsOf5() {
-		int numberToBeFactored = 5;
+		numberToBeFactored = 5;
 		expectedResult.add(5);
 		
 		factors = factorer.factor(numberToBeFactored);
